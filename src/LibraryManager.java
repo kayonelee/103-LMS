@@ -13,7 +13,7 @@ public class LibraryManager<T extends LibraryItem> implements LibraryOperations<
         items.add(item);
         System.out.println("Item added: " + item.getTitle());
     }
-//JUST FOR SPACING/FORMATTING PURPOSES
+
     @Override
     public void removeItem(T item) {
         if (items.remove(item)) {
