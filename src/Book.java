@@ -23,7 +23,7 @@ public class Book extends LibraryItem {
         System.out.println("Release Year: " + releaseYear);
         System.out.println("ISBN: " + ISBN);
         System.out.println("Type: " + getItemType());
-        System.out.println("Details: " + getItemDetails());
+        System.out.println("Quick Details: " + getItemDetails());
     }
 
     @Override
